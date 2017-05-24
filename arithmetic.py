@@ -4,7 +4,7 @@
 def add(num1, num2):
     """Return the sum of the two input integers."""
 
-    return num1 + num2
+    return int(num1 + num2)
 
 
 def subtract(num1, num2):
@@ -21,6 +21,8 @@ def multiply(num1, num2):
 
 def divide(num1, num2):
     """Divide the first input by the second, returning a floating point."""
+
+    return num1 / num2
 
 
 def square(num1):
